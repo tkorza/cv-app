@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+}
+
+body {
+    background: #F3F3F3;
+    width: 1220px;
+    margin: auto;
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header h1 {
+    font: 500 50px "DM Sans";
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 48.6px;
+}
+
+header .nav {
+    display: flex;
+    gap: 30px;
+}
+
+header p {
+    font: 500 22px "DM Sans";
+    line-height: 26.4px;
+
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+}
+
+.preview .leftpreview {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+}
+
+.preview .leftpreview h1 {
+    font: 500 60px DM Sans;
+    line-height: 58.32px;
+}
+
+.preview p {
+    font: 400 32px DM Sans;
+    line-height: 37.44px;
+    color: #606060;
+
+}
+
+.secondpreview {
+    margin-top: 83px;
+    height: 600px;
+}
+
+.secondpreview .project1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #181717;
+}
+
+.info h2 {
+    margin-bottom: 25px;
+    font: 500 24px DM Sans;
+    line-height: 29.16px;
+    color: #181717;
+    ;
+}
+
+.info p {
+    margin-bottom: 20px;
+    font: 400 22px DM Sans;
+    line-height: 26.73px;
+}
+
+.info .p2 {
+    font-family: 400 22px DM Sans;
+    line-height: 26.73px;
+    color: #606060;
+    padding-top: 30px;
+}
+
+.info .p3 {
+    margin: 0;
+    font-family: 500 22px DM Sans;
+    line-height: 26.73px;
+    color: #181717;
+    padding-top: 145px;
+    padding-bottom: 106px;
+}
+
+.secondpreview .project2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 114px;
+    border-bottom: solid #181717;
+}
+
+.secondpreview .project2 .p3 {
+    padding-top: 120px;
+}
+
+.secondpreview .project3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 114px;
+}
+
+.secondpreview .project3 .p3 {
+    padding-top: 120px;
+}
+
+.foot {
+    display: flex;
+    padding-bottom: 116px;
+    justify-content: space-between;
+}
+
+.foot h3 {
+    font-family: 500 22px DM Sans;
+    line-height: 26.4px;
+    color: #2429AF;
+
+
+}
+
+.foot .part_of_foot {
+    display: flex;
+    gap: 30px;
+}
+
+.foot .part_of_foot p {
+    font-family: 500 22px DM Sans;
+    line-height: 26.4px;
+    color: #181717;
+}
