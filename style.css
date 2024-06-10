@@ -129,7 +129,7 @@ header p {
 }
 
 .foot h3 {
-    font-family: 500 22px DM Sans;
+    font: 500 22px DM Sans;
     line-height: 26.4px;
     color: #2429AF;
 
@@ -142,7 +142,7 @@ header p {
 }
 
 .foot .part_of_foot p {
-    font-family: 500 22px DM Sans;
+    font: 500 22px DM Sans;
     line-height: 26.4px;
     color: #181717;
 }
